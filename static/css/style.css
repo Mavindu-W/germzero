@@ -1,0 +1,87 @@
+/* ==== GLOBAL LAYOUT FIXES FOR STICKY FOOTER ==== */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+main {
+  flex: 1;
+}
+
+/* ==== HERO SECTION ==== */
+.hero {
+  background: url('assets/images/hero2.png') no-repeat center center/cover;
+  color: white;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* ==== SECTION STYLES ==== */
+.section-light {
+  background-color: #f8f9fa;
+}
+
+/* ==== IMAGE STYLING ==== */
+.feature-image {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ==== TESTIMONIAL CARD ==== */
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ==== FOOTER ==== */
+footer {
+  background: #dbe7e2;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ==== RESPONSIVE UTILITY CLASSES (OPTIONAL) ==== */
+.text-muted-small {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.badge-pill {
+  border-radius: 50rem;
+}
