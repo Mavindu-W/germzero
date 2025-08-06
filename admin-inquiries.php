@@ -6,8 +6,11 @@ $result = $conn->query("SELECT * FROM contact_inquiries ORDER BY submitted_at DE
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-
-<h3 class="mb-4">Customer Inquiries</h3>
+<div class="container py-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold">Customer Inquiries</h2>
+    <a href="admin-dashboard.php" class="btn btn-outline-dark">← Back to Dashboard</a>
+  </div>
 
 <div class="table-responsive">
   <table class="table table-bordered table-hover table-striped align-middle">
