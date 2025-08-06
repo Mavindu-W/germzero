@@ -6,8 +6,8 @@ A university group project to build a complete online platform for managing and 
 
 👥 Team Members
 
-- **Mavindu Wijesekara** – Project Manager / Risk Manager  
-- **Nusara Jayakodi** – Start-up Manager / Schedule Manager  
+- **Mavindu Wijesekara** – Project Manager
+- **Nusara Jayakodi** – Start-up Manager
 - **Buddini Alwis** – Quality Manager  
 
 ---
@@ -21,18 +21,17 @@ It includes:
 - A secure login system using Flask and bcrypt  
 - An admin dashboard with role-based access control  
 - MySQL database integration for managing products, orders, and users  
-- Cash on Delivery (COD) and slip upload system instead of online payment
+- Cash on Delivery (COD) and slip upload system instead of online payment(Bank deposit)
 
 ---
 
 🛠️ Technologies Used
 
-| Layer       | Tools/Frameworks           |
+| Layer       | Tools/Frameworks            |
 |-------------|-----------------------------|
-| Frontend    | HTML, CSS                   |
-| Backend     | Flask (Python)              |
+| Frontend    | HTML, CSS, javascript       |
+| Backend     | PHP                         |
 | Database    | MySQL                       |
-| Authentication | Flask-Login, Flask-Bcrypt   |
 | Version Control | GitHub                      |
 
 ---
@@ -40,21 +39,8 @@ It includes:
  🚀 Main Features
 
 - 💻 **User Interface**: Users can browse products and place orders  
-- 🔐 **Secure Login System**: Authenticated access for users and admins using Flask  
+- 🔐 **Secure Login System**: Authenticated access for users and admins using 
 - 📊 **Admin Dashboard**: Manage products, customer orders, and availability  
 - 💵 **Order Payment**: Cash on Delivery (COD) and slip upload system  
 - 📱 **Responsive Design**: Fully functional on both desktop and mobile devices  
 
----
-
- 📂 Project Structure
-
-```
-germzero/
-├── templates/         # HTML templates
-├── static/            # CSS, JS, and image files
-├── app/               # Python Flask backend
-├── run.py             # App entry point
-├── requirements.txt   # Python dependencies
-└── README.md          # Project overview
-```
